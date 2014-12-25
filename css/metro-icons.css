@@ -1,0 +1,81 @@
+/*
+  Icon Font: metro-icons
+*/
+
+@font-face {
+  font-family: "metro-icons";
+  src: url("../fonts/metro-icons.eot");
+  src: url("../fonts/metro-icons.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/metro-icons.woff") format("woff"),
+       url("../fonts/metro-icons.ttf") format("truetype"),
+       url("../fonts/metro-icons.svg#metro-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "metro-icons";
+    src: url("../fonts/metro-icons.svg#metro-icons") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.mi-ekb:before,
+.mi-ekb-o:before,
+.mi-ekb-r:before,
+.mi-kzn:before,
+.mi-kzn-o:before,
+.mi-kzn-r:before,
+.mi-msk:before,
+.mi-msk-o:before,
+.mi-msk-r:before,
+.mi-niz:before,
+.mi-niz-o:before,
+.mi-niz-r:before,
+.mi-nvs:before,
+.mi-nvs-o:before,
+.mi-nvs-r:before,
+.mi-sam:before,
+.mi-sam-o:before,
+.mi-sam-r:before,
+.mi-spb:before,
+.mi-spb-o:before,
+.mi-spb-r:before {
+  display: inline-block;
+  font-family: "metro-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.mi-ekb:before { content: "\f100"; }
+.mi-ekb-o:before { content: "\f101"; }
+.mi-ekb-r:before { content: "\f102"; }
+.mi-kzn:before { content: "\f103"; }
+.mi-kzn-o:before { content: "\f104"; }
+.mi-kzn-r:before { content: "\f105"; }
+.mi-msk:before { content: "\f106"; }
+.mi-msk-o:before { content: "\f107"; }
+.mi-msk-r:before { content: "\f108"; }
+.mi-niz:before { content: "\f109"; }
+.mi-niz-o:before { content: "\f10a"; }
+.mi-niz-r:before { content: "\f10b"; }
+.mi-nvs:before { content: "\f115"; }
+.mi-nvs-o:before { content: "\f116"; }
+.mi-nvs-r:before { content: "\f117"; }
+.mi-sam:before { content: "\f112"; }
+.mi-sam-o:before { content: "\f113"; }
+.mi-sam-r:before { content: "\f114"; }
+.mi-spb:before { content: "\f10f"; }
+.mi-spb-o:before { content: "\f110"; }
+.mi-spb-r:before { content: "\f111"; }

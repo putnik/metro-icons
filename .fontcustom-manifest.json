@@ -1,0 +1,130 @@
+{
+  "checksum": {
+    "previous": "d079d2099974bf09c46baf0732308ea3453adb1280e214a0aaca142b8a79f59d",
+    "current": "d079d2099974bf09c46baf0732308ea3453adb1280e214a0aaca142b8a79f59d"
+  },
+  "fonts": [
+    "fonts/metro-icons.ttf",
+    "fonts/metro-icons.svg",
+    "fonts/metro-icons.woff",
+    "fonts/metro-icons.eot"
+  ],
+  "glyphs": {
+    "ekb": {
+      "codepoint": 61696,
+      "source": "svg/ekb.svg"
+    },
+    "ekb-o": {
+      "codepoint": 61697,
+      "source": "svg/ekb-o.svg"
+    },
+    "ekb-r": {
+      "codepoint": 61698,
+      "source": "svg/ekb-r.svg"
+    },
+    "kzn": {
+      "codepoint": 61699,
+      "source": "svg/kzn.svg"
+    },
+    "kzn-o": {
+      "codepoint": 61700,
+      "source": "svg/kzn-o.svg"
+    },
+    "kzn-r": {
+      "codepoint": 61701,
+      "source": "svg/kzn-r.svg"
+    },
+    "msk": {
+      "codepoint": 61702,
+      "source": "svg/msk.svg"
+    },
+    "msk-o": {
+      "codepoint": 61703,
+      "source": "svg/msk-o.svg"
+    },
+    "msk-r": {
+      "codepoint": 61704,
+      "source": "svg/msk-r.svg"
+    },
+    "niz": {
+      "codepoint": 61705,
+      "source": "svg/niz.svg"
+    },
+    "niz-o": {
+      "codepoint": 61706,
+      "source": "svg/niz-o.svg"
+    },
+    "niz-r": {
+      "codepoint": 61707,
+      "source": "svg/niz-r.svg"
+    },
+    "nvs": {
+      "codepoint": 61717,
+      "source": "svg/nvs.svg"
+    },
+    "nvs-o": {
+      "codepoint": 61718,
+      "source": "svg/nvs-o.svg"
+    },
+    "nvs-r": {
+      "codepoint": 61719,
+      "source": "svg/nvs-r.svg"
+    },
+    "sam": {
+      "codepoint": 61714,
+      "source": "svg/sam.svg"
+    },
+    "sam-o": {
+      "codepoint": 61715,
+      "source": "svg/sam-o.svg"
+    },
+    "sam-r": {
+      "codepoint": 61716,
+      "source": "svg/sam-r.svg"
+    },
+    "spb": {
+      "codepoint": 61711,
+      "source": "svg/spb.svg"
+    },
+    "spb-o": {
+      "codepoint": 61712,
+      "source": "svg/spb-o.svg"
+    },
+    "spb-r": {
+      "codepoint": 61713,
+      "source": "svg/spb-r.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".mi-{{glyph}}",
+    "debug": true,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "metro-icons",
+    "force": true,
+    "input": {
+      "templates": "svg",
+      "vectors": "svg"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "css",
+      "fonts": "fonts",
+      "preview": "."
+    },
+    "preprocessor_path": null,
+    "quiet": false,
+    "templates": [
+      "css",
+      "preview"
+    ]
+  },
+  "templates": [
+    "css/metro-icons.css",
+    "./metro-icons-preview.html"
+  ]
+}
