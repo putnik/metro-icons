@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "605bd35a9ccdac6d29cbea4ee714b7e457805fd8bee14b911465a431790d5ca1",
-    "current": "605bd35a9ccdac6d29cbea4ee714b7e457805fd8bee14b911465a431790d5ca1"
+    "previous": "475fd2486482a57feb369e05bb9e129933544cdcf07c2cf246af3aef2dfd1302",
+    "current": "475fd2486482a57feb369e05bb9e129933544cdcf07c2cf246af3aef2dfd1302"
   },
   "fonts": [
     "fonts/metro-icons.ttf",
@@ -100,10 +100,10 @@
     "config": "fontcustom.yml",
     "css_selector": ".mi-{{glyph}}",
     "debug": true,
-    "font_ascent": 448,
-    "font_descent": 64,
+    "font_ascent": 280,
+    "font_descent": 60,
     "font_design_size": 16,
-    "font_em": 512,
+    "font_em": 340,
     "font_name": "metro-icons",
     "force": true,
     "input": {
