@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "475fd2486482a57feb369e05bb9e129933544cdcf07c2cf246af3aef2dfd1302",
-    "current": "475fd2486482a57feb369e05bb9e129933544cdcf07c2cf246af3aef2dfd1302"
+    "previous": "be440beae545cf6cb8b770fa162855ed6de875bd779643acd47b5f2d8f1155b2",
+    "current": "be440beae545cf6cb8b770fa162855ed6de875bd779643acd47b5f2d8f1155b2"
   },
   "fonts": [
     "fonts/metro-icons.ttf",
@@ -105,13 +105,14 @@
     "font_design_size": 16,
     "font_em": 340,
     "font_name": "metro-icons",
-    "force": true,
+    "force": false,
     "input": {
-      "templates": "svg",
+      "templates": "templates",
       "vectors": "svg"
     },
     "no_hash": true,
     "output": {
+      "README.md": ".",
       "css": "css",
       "fonts": "fonts",
       "preview": "."
@@ -120,11 +121,13 @@
     "quiet": false,
     "templates": [
       "css",
-      "preview"
+      "preview",
+      "README.md"
     ]
   },
   "templates": [
     "css/metro-icons.css",
-    "./metro-icons-preview.html"
+    "./metro-icons-preview.html",
+    "./README.md"
   ]
 }

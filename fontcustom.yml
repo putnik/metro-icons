@@ -45,15 +45,15 @@ debug: true
 #     names as the key.
 # -----------------------------------------------------------------------------
 
-#input:
-#  vectors: my/vectors
-#  templates: my/templates
+input:
+  vectors: svg
+  templates: templates
 
 output:
   fonts: fonts
   css: css
   preview: .
-#  my-custom-template.yml: path/to/template/output
+  README.md: .
 
 
 # -----------------------------------------------------------------------------
@@ -74,7 +74,7 @@ templates:
 - css
 #- scss-rails
 - preview
-#- my-custom-template.yml
+- README.md
 
 #preprocessor_path: ../fonts/
 

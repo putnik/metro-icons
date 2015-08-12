@@ -1,13 +1,13 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <!--
-2014-12-27: Created with FontForge (http://fontforge.org)
+2015-8-12: Created with FontForge (http://fontforge.org)
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20141127 at Sat Dec 27 10:32:02 2014
+Created by FontForge 20150504 at Wed Aug 12 16:13:40 2015
  By Sergey Leschina
-Copyright (c) 2014, Sergey Leschina
+Copyright (c) 2015, Sergey Leschina
 </metadata>
 <defs>
 <font id="metro-icons" horiz-adv-x="340" >
@@ -16,15 +16,17 @@ Copyright (c) 2014, Sergey Leschina
     font-weight="400"
     font-stretch="normal"
     units-per-em="340"
-    panose-1="2 0 5 9 0 0 0 0 0 0"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
     ascent="280"
     descent="-60"
     bbox="-0.0302734 -60 340 280"
     underline-thickness="17"
     underline-position="-34"
-    unicode-range="U+F100-F117"
+    unicode-range="U+0020-F117"
   />
     <missing-glyph />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="200" 
+ />
     <glyph glyph-name="uniF102" unicode="&#xf102;" 
 d="M170 280c94 0 170 -76 170 -170s-76 -170 -170 -170s-170 76 -170 170s76 170 170 170zM70 208.12v0.0195312v-85.3398l100.3 -99.3594l99.7002 98.7598v85.5996l-99.7002 -99.0498zM70 104.06v-84.0596h72.7998v11.8799zM270 104.06v-0.00976562l-72.7998 -72.1699
 v-11.8799h72.7998v84.0596z" />
